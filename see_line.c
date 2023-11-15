@@ -6,20 +6,20 @@
  */
 char *see_line(void)
 {
-char *tto = NULL;
+char *tto = NULL;/*Initialize a pointer to hold the input line*/
 size_t mmo = 0;
 ssize_t nno;
-
-/*cheack the STDIN_FILENO*/
-
+/*Check if input is coming from STDIN_FILENO*/
 if (isatty(STDIN_FILENO))
 write(STDOUT_FILENO, "$", 2);
 
 nno = getline(&tto, &mmo, stdin);
 
+/*Check if getline encountered an error or reached the end of file*/
 if (nno == -1)
 {
 free(tto);
+/*Return the pointer to the input line*/
 return (NULL);
 }
 
