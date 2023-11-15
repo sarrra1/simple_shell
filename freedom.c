@@ -9,12 +9,12 @@
 void array_freedom(char **sarrad)
 {
 int i;
-if (!sarad)
+if (!sarrad)
 return;
 for (i = 0; sarrad[i]; i++)
 {
 free(sarrad[i]);
-arr[i] = NULL;
+sarrad[i] = NULL;
 }
 free(sarrad), sarrad = NULL;
 }

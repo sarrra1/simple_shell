@@ -9,11 +9,11 @@
 int check_positive_numb(char *string_dan)
 {
 int i;
-if (!strting_dan)
+if (!string_dan)
 return (0);
-for (i = 0; string_dan_[i]; i++)
+for (i = 0; string_dan[i]; i++)
 {
-if (string[i] < '0' || string[i] > '9')
+if (string_dan[i] < '0' || string_dan[i] > '9')
 return (0);
 }
 return (1);

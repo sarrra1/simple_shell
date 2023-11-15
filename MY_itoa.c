@@ -24,6 +24,6 @@ n /= 10;
 }
 sar_buf[i] = '\0';
 change_sttr(sar_buf, i);
-return (strin__dup(sar_buf));
+return (strin_dup(sar_buf));
 }
 
