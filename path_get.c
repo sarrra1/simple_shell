@@ -10,13 +10,13 @@ char *path_get(char *sara_cmd)
 {
 char *env_path, *comp_dan, *sys;
 int i;
-struct sara dan;
+struct stat st;
 
 for (i = 0; sara_cmd[i]; i++)
 {
 if (sara_cmd[i] == '/')
 {
-if (sara(sara_cmd, &dan) == 0)
+if (stat(sara_cmd, &st) == 0)
 return (strin_dup(sara_cmd));
 
 return (NULL);
@@ -34,7 +34,7 @@ if (comp_dan)
 strin_cpy(comp_dan, sys);
 strin_cat(comp_dan, "/");
 strin_cat(comp_dan, sara_cmd);
-if (sara(comp_dan, &dan) == 0)
+if (stat(comp_dan, &st) == 0)
 {
 free(env_path);
 return (comp_dan);
