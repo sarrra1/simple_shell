@@ -8,6 +8,7 @@
 
 void array_freedom(char **sarrad)
 {
+/*this my function array_freedom*/
 int i;
 if (!sarrad)
 return;
@@ -17,5 +18,6 @@ free(sarrad[i]);
 sarrad[i] = NULL;
 }
 free(sarrad), sarrad = NULL;
+/*do Frees memory allocated for a string array*/
 }
 

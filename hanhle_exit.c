@@ -14,6 +14,7 @@ char *simple[] = {
 int i;
 for (i = 0; simple[i]; i++)
 {
+/*this my function shell_built*/
 if (strin_cmp(line, simple[i]) == 0)
 return (1);
 }
@@ -56,8 +57,10 @@ if (check_positive_numb(line[1]))
 {
 shell_exit = MY_atoi(line[1]);
 }
+/*this my function make_envir*/
 else
 {
+/*write STOUT_FILENO*/
 idx = MY_itoa(shel);
 write(STDOUT_FILENO, argv[0], strin_len(argv[0]));
 write(STDOUT_FILENO, ":", 2);

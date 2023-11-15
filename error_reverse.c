@@ -11,7 +11,7 @@ void function_error(char *type, char *dmma, int shel)
 {
 char *numb, word[] = ": not found\n";
 numb = MY_itoa(shel);
-
+/*this my function_error*/
 write(STDERR_FILENO, type, strin_len(type));
 write(STDERR_FILENO, ": ", 2);
 write(STDERR_FILENO, numb, strin_len(numb));
@@ -33,6 +33,7 @@ void change_sttr(char *string_dan, int leng)
 char eye;
 int begin = 0;
 int last = leng - 1;
+/*this my change_sttr*/
 while (begin < last)
 {
 eye = string_dan[begin];
