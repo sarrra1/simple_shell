@@ -40,7 +40,7 @@ else if (strin_cmp(line[0], "env") == 0)
 make_envir(line, updata);
 }
 /**
- * fun_shell - Handles the 'exit' built-in command
+ * fun_exit - Handles the 'exit' built-in command
  * @line: The command line arguments
  * @argv: The command arguments
  * @updata: Pointer to an update flag
