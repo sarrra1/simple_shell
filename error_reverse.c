@@ -28,11 +28,11 @@ free(numb);
  * Return: None
  */
 
-void change_sttr(char *string_dan, int long)
+void change_sttr(char *string_dan, int leng)
 {
 char eye;
 int begin = 0;
-int last = long - 1;
+int last = leng - 1;
 while (begin < last)
 {
 eye = string_dan[begin];

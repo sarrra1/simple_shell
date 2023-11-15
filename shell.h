@@ -37,7 +37,7 @@ char *strin_dup(const char *soma);
 
 void array_freedom(char **sarrad);
 void function_error(char *type, char *dmma, int shel);
-void change_sttr(char *string_dan, int long);
+void change_sttr(char *string_dan, int leng);
 char *MY_itoa(int n);
 
 #endif
