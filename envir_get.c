@@ -3,6 +3,7 @@
 /**
  * envir_get - Retrieves the value of an environment variable
  * @svar: The name of the environment variable to retrieve
+ *
  * * Return: A pointer to the value of the environment variable
  */
 

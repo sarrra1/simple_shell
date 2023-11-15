@@ -3,6 +3,7 @@
 /**
  * array_freedom - Frees memory allocated for a string array
  * @sarrad: The string array to free
+ *
  * Return: None
  */
 

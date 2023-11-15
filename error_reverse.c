@@ -25,6 +25,7 @@ free(numb);
  * change_sttr - Changes the order of characters in a string
  * @string_dan: The string to modify
  * @leng: The length of the string
+ *
  * Return: None
  */
 

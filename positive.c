@@ -3,6 +3,7 @@
 /**
  * check_positive_numb - Checks if a string represents a positive number
  * @string_dan: The string to check
+ *
  * Return: 1 if the string represents a positive number, 0 otherwise
  */
 

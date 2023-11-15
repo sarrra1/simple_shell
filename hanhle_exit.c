@@ -26,6 +26,7 @@ return (0);
  * @argv: The command arguments
  * @updata: Pointer to an update flag
  * @shel: Shell configuration flag
+ *
  * Return: None
  */
 
@@ -44,6 +45,7 @@ make_envir(line, updata);
  * @argv: The command arguments
  * @updata: Pointer to an update flag
  * @shel: Shell configuration flag
+ *
  * Return: None
  */
 
