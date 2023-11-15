@@ -32,7 +32,7 @@ void make_built(char **line, char **argv, int *updata, int shel)
 {
 /* using if elseif built*/
 if (strin_cmp(line[0], "exit") == 0)
-shell_exit(line, argv, updata, shel);
+fun_exit(line, argv, updata, shel);
 /*make_enir = print the envir*/
 else if (strin_cmp(line[0], "env") == 0)
 make_envir(line, updata);
@@ -58,7 +58,7 @@ shell_exit = MY_atoi(line[1]);
 }
 else
 {
-idx = MY_itoa(index);
+idx = MY_itoa(shel);
 write(STDOUT_FILENO, argv[0], strin_len(argv[0]));
 write(STDOUT_FILENO, ":", 2);
 write(STDOUT_FILENO, idx, strin_len(idx));
@@ -87,4 +87,6 @@ for (i = 0; environ[i]; i++)
 {
 write(STDOUT_FILENO, environ[i], strin_len(environ[i]));
 }
+array_freedom(line);
+(*updata) = 0;
 }

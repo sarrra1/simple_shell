@@ -14,7 +14,7 @@ numb = MY_itoa(shel);
 
 write(STDERR_FILENO, type, strin_len(type));
 write(STDERR_FILENO, ": ", 2);
-write(STDERR_FILENO, index, strin_len(index));
+write(STDERR_FILENO, numb, strin_len(numb));
 write(STDERR_FILENO, ": ", 2);
 write(STDERR_FILENO, dmma, strin_len(dmma));
 write(STDERR_FILENO, word, strin_len(word));
@@ -24,7 +24,7 @@ free(numb);
 /**
  * change_sttr - Changes the order of characters in a string
  * @string_dan: The string to modify
- * @long: The length of the string
+ * @leng: The length of the string
  * Return: None
  */
 
