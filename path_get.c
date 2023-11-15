@@ -3,6 +3,7 @@
 /**
  * path_get - Retrieves the full path of a command
  * @sara_cmd: The command to retrieve the full path for
+ *
  * Return: A pointer to the full path of the command
  */
 

@@ -5,6 +5,7 @@
  * @sar_cmd: The command andf arguments to execute.
  * @argv: The program's argumentts.
  * @shel: Flag indicating if thhe shell is interactive.
+ *
  * Return: The exit status of the executed command.
  */
 int execu__te(char **sar_cmd, char **argv, int shel)

@@ -2,6 +2,7 @@
 
 /**
  * see_line - Reads a line of input from the user
+ *
  * Return: A pointer to the input line
  */
 char *see_line(void)

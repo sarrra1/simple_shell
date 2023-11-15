@@ -3,6 +3,7 @@
 /**
  * strin_dup - Creates a duplicate of a string
  * @soma: The string to be duplicated
+ *
  * Return: A pointer to the duplicate string or NULL if the input is NULL
  */
 
@@ -38,6 +39,7 @@ return (dot);
  * strin_cmp - Compares two strings
  * @c1: The first string to be compared
  * @c2: The second string to be compared
+ *
  * Return: An integer indicating the difference between the strings
  */
 
@@ -66,6 +68,7 @@ return (out);
  * strin_cpy - Copies a string
  * @skhy: The destination string
  * @hdo: The source string
+ *
  * * Return: A pointer to the source string @hd
  */
 
@@ -87,6 +90,7 @@ return (skhy);/*Return the modified skhy string*/
  * strin_cat - Concatenates two strings
  * @skhy: The destination string
  * @hdoo: The source string
+ *
  * Return: A pointer to the destination string @skhy
  */
 
@@ -112,6 +116,7 @@ return (skhy);/*Return the modified skhy string*/
 /**
  * strin_len - Calculates the length of a string
  * @q: The string to calculate the length of
+ *
  * * Return: The length of the string
  */
 

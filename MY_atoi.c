@@ -3,6 +3,7 @@
 /**
  * MY_atoi - Converts a string to an integer
  * @string_dan: The string to convert
+ *
  * Return: The converted integer value
  */
 
