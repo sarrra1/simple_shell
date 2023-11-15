@@ -35,6 +35,6 @@ else
 waitpid(child, &updata, 0);
 array_freedom(sar_cmd);
 free(comp_sara), comp_sara = NULL;
-}/*now exit with status*/
+} /*now exit with status*/
 return (WEXITSTATUS(updata));
 }
